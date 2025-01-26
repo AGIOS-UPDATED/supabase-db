@@ -55,7 +55,7 @@ enabled = true
 # Port to use for Supabase Studio.
 port = 54323
 # External URL of the API server that frontend connects to.
-api_url = "http://127.0.0.1"
+api_url = "https://supabase.dashboard.com"
 # OpenAI API Key to use for Supabase AI in the Supabase Studio.
 openai_api_key = "env(OPENAI_API_KEY)"
 
@@ -91,9 +91,9 @@ file_size_limit = "50MiB"
 enabled = true
 # The base URL of your website. Used as an allow-list for redirects and for constructing URLs used
 # in emails.
-site_url = "http://localhost:3001"
+site_url = "https://supabase.updated.com"
 # A list of *exact* URLs that auth providers are permitted to redirect to post authentication.
-additional_redirect_urls = ["https://localhost:3001", "http://localhost:54321/auth/v1/callback"]
+additional_redirect_urls = ["https://dashboard.updated.com", "https://supabase.updated.com/auth/v1/callback"]
 # How long tokens are valid for, in seconds. Defaults to 3600 (1 hour), maximum 604,800 (1 week).
 jwt_expiry = 3600
 # If disabled, the refresh token will never expire.
@@ -118,7 +118,7 @@ password_requirements = ""
 enabled = true
 client_id = "376419151541-9vqn70lb6ribh9o02j77b3tm66qflc0d.apps.googleusercontent.com"
 secret = "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"
-redirect_uri = "http://localhost:54321/auth/v1/callback"
+redirect_uri = "https://supabase.updated.com/auth/v1/callback"
 
 [auth.email]
 # Allow/disallow new user signups via email to your project.
