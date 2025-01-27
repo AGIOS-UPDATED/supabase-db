@@ -140,10 +140,10 @@ otp_expiry = 3600
 # Use a production-ready SMTP server
 # [auth.email.smtp]
 # enabled = true
-# host = "smtp.sendgrid.net"
+# host = "smtp.resend.com"
 # port = 587
-# user = "apikey"
-# pass = "env(SENDGRID_API_KEY)"
+# user = "re_47jWsY3Q_7yQUAtFJTG3AT8gou6UoJ9DF"
+# pass = "re_47jWsY3Q_7yQUAtFJTG3AT8gou6UoJ9DF"
 # admin_email = "admin@email.com"
 # sender_name = "Admin"
 
