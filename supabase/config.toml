@@ -140,12 +140,12 @@ otp_expiry = 3600
 # Use a production-ready SMTP server
 # [auth.email.smtp]
 # enabled = true
-# host = "smtp.resend.com"
+# host = "smtp.gmail.com"
 # port = 587
-# user = "re_47jWsY3Q_7yQUAtFJTG3AT8gou6UoJ9DF"
-# pass = "re_47jWsY3Q_7yQUAtFJTG3AT8gou6UoJ9DF"
-# admin_email = "admin@email.com"
-# sender_name = "Admin"
+# user = "ssameershah1200@gmail.com"
+# pass = "wjyqmlpimtcxyiey"
+# admin_email = "ssameershah1200@gmail.com"
+# sender_name = "Sameer"
 
 # Uncomment to customize email template
 # [auth.email.template.invite]
